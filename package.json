@@ -1,0 +1,10 @@
+{
+  "name": "insighter",
+  "private": true,
+  "type": "module",
+  "workspaces": ["apps/web", "packages/*"],
+  "scripts": {
+    "dev:web": "npm run dev -w web",
+    "dev:api": "cd apps/api && uv run fastapi dev app/main.py"
+  }
+}
