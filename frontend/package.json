@@ -1,13 +1,13 @@
 {
-  "name": "web",
+  "name": "frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --config ../../vite.config.ts",
-    "build": "tsc -b ../../tsconfig.json && vite build --config ../../vite.config.ts",
-    "lint": "eslint . --config ../../eslint.config.js",
-    "preview": "vite preview --config ../../vite.config.ts"
+    "dev": "vite --config ../vite.config.ts",
+    "build": "tsc -b ../tsconfig.json && vite build --config ../vite.config.ts",
+    "lint": "eslint . --config ../eslint.config.js",
+    "preview": "vite preview --config ../vite.config.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.118.0",

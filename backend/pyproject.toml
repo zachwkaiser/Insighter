@@ -1,7 +1,7 @@
 [project]
-name = "api"
+name = "backend"
 version = "0.1.0"
-description = "Add your description here"
+description = "Stock analysis and application logic for Insighter."
 requires-python = ">=3.11"
 dependencies = [
     "fastapi[standard]>=0.162.0",

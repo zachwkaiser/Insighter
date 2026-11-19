@@ -2,9 +2,9 @@
   "name": "insighter",
   "private": true,
   "type": "module",
-  "workspaces": ["apps/web", "packages/*"],
+  "workspaces": ["frontend"],
   "scripts": {
-    "dev:web": "npm run dev -w web",
-    "dev:api": "cd apps/api && uv run fastapi dev app/main.py"
+    "dev:frontend": "npm run dev -w frontend",
+    "dev:backend": "cd backend && uv run fastapi dev app/main.py"
   }
 }
